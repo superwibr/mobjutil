@@ -1,6 +1,6 @@
 "use strict";
 
-export default include = async function(source, strict){
+const include = async function(source, strict){
 	let f = async function(s){
 		let data = await fetch(s).then(res => res.text())
 		switch(strict){
@@ -53,3 +53,5 @@ export default include = async function(source, strict){
 		return true;
 	}
 };
+
+export default include

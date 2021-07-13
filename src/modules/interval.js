@@ -1,6 +1,6 @@
 "use strict";
 
-export default interval = function (callback, ms, times) {
+const interval = function (callback, ms, times) {
   let r = function () {
     var interv = function (w, t) {
       return function () {
@@ -31,3 +31,5 @@ export default interval = function (callback, ms, times) {
   r();
   return r;
 };
+
+export default interval
