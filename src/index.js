@@ -3,7 +3,7 @@ import interval from './modules/interval.js'
 import sleep from './modules/sleep.js'
 import include from './modules/include.js'
 
-mobjutil = {
+const mobjutil = {
 	feval: feval,
 	interval: interval,
 	sleep: sleep,
