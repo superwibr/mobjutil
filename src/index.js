@@ -4,7 +4,7 @@ import { sleep } from './modules/sleep.js'
 import { include } from './modules/include.js'
 
 mobjutil = {
-	feval: fastEval,
+	feval: feval,
 	interval: interval,
 	sleep: sleep,
 	include: include,
@@ -12,4 +12,4 @@ mobjutil = {
 
 window.mobjutil = mobjutil
 
-export default mobjutil
+export { mobjutil }
