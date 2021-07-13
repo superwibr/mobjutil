@@ -1,7 +1,7 @@
-import fastEval from './modules/feval.js'
-import interval from './modules/interval.js'
-import sleep from './modules/sleep.js'
-import include from './modules/include.js'
+import { feval } from './modules/feval.js'
+import { interval } from './modules/interval.js'
+import { sleep } from './modules/sleep.js'
+import { include } from './modules/include.js'
 
 mobjutil = {
 	feval: fastEval,

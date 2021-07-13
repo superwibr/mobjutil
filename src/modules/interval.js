@@ -1,11 +1,6 @@
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _default = interval = function (callback, ms, times) {
+export default interval = function (callback, ms, times) {
   let r = function () {
     var interv = function (w, t) {
       return function () {
@@ -36,5 +31,3 @@ var _default = interval = function (callback, ms, times) {
   r();
   return r;
 };
-
-exports.default = _default;
